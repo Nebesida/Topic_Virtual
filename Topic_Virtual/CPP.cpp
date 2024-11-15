@@ -40,5 +40,5 @@ void CPP::display()
 {
 	setlocale(LC_ALL, "");
 	Topic::display();
-	std::cout << "Èñïîëüçóåìûé ñòàíäàðò Ñ++: " << _standart << std::endl;
+	std::cout << "Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÐ¼Ñ‹Ð¹ ÑÑ‚Ð°Ð½Ð´Ð°Ñ€Ñ‚ Ð¡++: " << _standart << std::endl;
 }
