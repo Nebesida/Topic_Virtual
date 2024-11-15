@@ -37,5 +37,5 @@ void Java::display()
 {
 	setlocale(LC_ALL, "");
 	Topic::display();
-	std::cout << "Èñïîëüçóåìûé ôðåéìâîðê Java: " << _frameworkName << std::endl;
+	std::cout << "Ð˜ÑÐ¿Ð¾Ð»ÑŒÐ·ÑƒÐµÐ¼Ñ‹Ð¹ Ñ„Ñ€ÐµÐ¹Ð¼Ð²Ð¾Ñ€Ðº Java: " << _frameworkName << std::endl;
 }
