@@ -9,7 +9,7 @@ std::string anyTopic::correctAlpha(std::string str)
 	{
 		if (!isalpha(str.at(i)) && !ispunct(str.at(i)))
 		{
-			std::cout << "Íåêîððåêòíûé ââîä äàííûõ â ïîëå" << std::endl
+			std::cout << "Некорректный ввод данных в поле" << std::endl
 				<< "_____________" << std::endl;
 			return "undefined";
 		}
@@ -23,7 +23,7 @@ int anyTopic::correctCount(int count)
 	if (count >= 0) return count;
 	else
 	{
-		std::cout << "Íåêîððåêòíûé ââîä äàííûõ â ïîëå" << std::endl << "_____________" << std::endl;
+		std::cout << "Некорректный ввод данных в поле" << std::endl << "_____________" << std::endl;
 		return 0;
 	}
 }
